@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+}
+.box {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: circle;
+   position: absolute;
+   top: 100px;
+   left: 100px;
+   animation: circle 2600ms linear infinite  500ms;
+}
+@keyframes circle {
+    0% {
+top: 100px;
+    left: 100px;
+background-color: red;
+    }
+    25% {
+top: 400px;
+    left: 100px;
+    background-color: blue;
+    }
+    50% {
+top: 400px;
+    left: 400px;
+    background-color: green;
+    }
+    75% {
+top: 100px;
+    left: 400px;
+    background-color: yellow;
+    }
+    100% {
+top: 100px;
+    left: 100px;
+    background-color: red;
+    }
+ 
+}
